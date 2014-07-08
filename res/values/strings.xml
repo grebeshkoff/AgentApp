@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Торговый Агент</string>
+    <string name="app_version">Версия 2.8.1</string>
+    <string name="Enter">Вход</string>
+    <string name="CompanyName">ООО \"Эффект\"</string>
+    <string name="SaveDetails">Запомнить данные</string>
+    <string name="Password">Пароль</string>
+    <string name="AgentLogin">Логин агента</string>
+    <string name="OrderClient">Client</string>
+    <string name="OrderEntities">Entities</string>
+    <string name="OrderPrice">Price</string>
+</resources>

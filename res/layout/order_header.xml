@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:padding="10dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Текущий клиент"
+            android:id="@+id/textView" android:textSize="25dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:id="@+id/textViewClient" android:textSize="25dp" android:textColor="#019eff"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickClient" android:clickable="true" android:minHeight="40dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ffad07"
+            android:visibility="gone"
+            android:id="@+id/textViewClientRealName" android:textSize="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickClient" android:clickable="true" android:minHeight="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вариант оплаты 1"
+            android:id="@+id/textView2" android:layout_gravity="left|center_vertical" android:textSize="25dp"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerFirstPayType"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вариант оплаты 2"
+            android:id="@+id/textView7"
+            android:layout_gravity="left|center_vertical" android:textSize="25dp"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerSecondPayType"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Примечание 1"
+            android:id="@+id/textView3" android:layout_gravity="left|center_vertical" android:textSize="25dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="..."
+            android:id="@+id/textViewHint1" android:textSize="15dp" android:textColor="#019eff"
+            android:gravity="center_vertical|center_horizontal" android:height="35dp" android:clickable="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Примечание 2"
+            android:id="@+id/textView5" android:layout_gravity="left|center_vertical" android:textSize="25dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="..."
+            android:id="@+id/textViewHint2" android:textSize="15dp" android:textColor="#019eff"
+            android:gravity="center_vertical|center_horizontal" android:height="35dp" android:clickable="true"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На дату"
+            android:onClick="onClickOrderInDate"
+            android:id="@+id/checkBoxOrderInDate" android:checked="false" android:textSize="25dp"/>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePickerOrderInDate"
+            android:layout_gravity="center"
+            android:calendarViewShown="false"/>
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Сохранить"
+                    android:id="@+id/buttonSaveOrder"
+                    android:layout_marginTop="20dp"
+                    android:onClick="onClickSaveOrder"
+                    android:enabled="false"/>
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Отмена"
+                    android:onClick="onClickCancelOrder"
+                    android:id="@+id/buttonCancelPosition" android:layout_column="1" android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

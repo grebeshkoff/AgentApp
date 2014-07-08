@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollViewOrderPriceEntity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="match_parent" android:padding="10dp">
+
+
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="_B&amp;G вино Совіньон-Блан біл.сух. 0,75л"
+                android:id="@+id/textViewEntityName" android:gravity="center_horizontal" android:textSize="20dp"
+                android:layout_marginBottom="5dp" android:textColor="#019eff"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Остаток"
+                android:id="@+id/textViewEntityInWarehouse" android:gravity="center_vertical|center_horizontal" android:textSize="20dp"
+                android:layout_marginBottom="5dp" android:textColor="#ffad07"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Мин.  отпуск: 1"
+                android:id="@+id/textViewEntityMinSale" android:gravity="center_vertical|center_horizontal" android:textSize="15dp"
+                android:layout_marginBottom="5dp" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewEntityHint" android:textColor="#9dbaff" android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="20dp"/>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#019eff"/>
+
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerEntityPriceType1"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Цена : 145,25 грн."
+                android:id="@+id/textViewEntityPrice1"
+                android:textSize="20dp"
+                android:textColor="#ffad07"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"/>
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кол-во (Наличные)"
+                    android:id="@+id/textViewEntityCount1" android:layout_gravity="left|center_vertical" android:gravity="center|bottom"
+                    android:textSize="15dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" android:layout_gravity="right|center_vertical">
+                <EditText
+                        android:layout_width="80dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/editTextEntityCount1" android:inputType="number|phone"
+                        android:gravity="center_horizontal|bottom"/>
+                <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageButtonAddBox1" android:src="@drawable/box"
+                        android:layout_gravity="center" android:scaleType="fitStart"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#019eff"/>
+
+        <Spinner android:layout_width="fill_parent" android:layout_height="wrap_content"
+                 android:id="@+id/spinnerEntityPriceType2"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Цена : 145,25 грн."
+                  android:id="@+id/textViewEntityPrice2" android:textSize="20dp" android:textColor="#ffad07"
+                  android:gravity="center_vertical|center_horizontal" android:layout_marginBottom="10dp"/>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                     android:id="@+id/frameLayout" android:layout_marginTop="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Кол-во (Наличные)" android:id="@+id/textViewEntityCount2"
+                      android:layout_gravity="left|center_vertical" android:gravity="center|bottom"
+                      android:textSize="15dp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+                          android:layout_height="fill_parent" android:layout_gravity="right|center_vertical">
+                <EditText android:layout_width="80dp" android:layout_height="fill_parent" android:id="@+id/editTextEntityCount2"
+                          android:inputType="number|phone"
+                          android:gravity="center_horizontal|bottom"
+                          android:textSize="20dp"/>
+                <ImageButton android:layout_width="50dp" android:layout_height="50dp"
+                             android:id="@+id/imageButtonAddBox2" android:src="@drawable/box" android:scaleType="fitStart"
+                        />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Итого :"
+                android:id="@+id/textView3" android:layout_marginTop="20dp" android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма (Наличные)"
+                    android:id="@+id/textViewEntitySummLable1" android:layout_gravity="left|top"
+                    android:textSize="20dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="145,25 грн."
+                    android:id="@+id/textViewEntitySumm1" android:layout_gravity="right|top" android:textColor="#ffad07"
+                    android:textSize="20dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма (Безнал.)"
+                    android:id="@+id/textViewEntitySummLable2" android:layout_gravity="left|center_vertical"
+                    android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="145,25 грн."
+                      android:id="@+id/textViewEntitySumm2" android:layout_gravity="right|center_vertical"
+                      android:textColor="#ffad07" android:textSize="20dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Всего"
+                    android:id="@+id/textView8" android:layout_gravity="left|bottom" android:textSize="20dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="352,25 грн."
+                    android:id="@+id/textViewEntitySummTotal" android:layout_gravity="right|bottom"
+                    android:textColor="#019eff" android:textSize="20dp"/>
+        </FrameLayout>
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Подтвердить"
+                        android:id="@+id/buttonAddPosition"
+                        android:layout_marginTop="20dp"
+                        />
+                <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Отмена"
+                        android:id="@+id/buttonCancelPosition" android:layout_column="1" android:layout_marginTop="20dp"
+                        />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

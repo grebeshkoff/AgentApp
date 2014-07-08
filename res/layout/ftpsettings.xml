@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки FTP"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:id="@+id/scroll">
+        <LinearLayout
+                android:id="@+id/linLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Адрес FTP сервера"
+                    android:id="@+id/textView2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:id="@+id/editTextHost"
+                    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Имя пользователя"
+                    android:id="@+id/textView" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:id="@+id/editTextLogin"
+                    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Пароль"
+                    android:id="@+id/textView1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:id="@+id/editTextPassword"
+                    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Фоновый режим"
+                    android:id="@+id/checkBox" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Частота обновления"
+                    android:id="@+id/textView1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerUpdate" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <!--<Button-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Проверить соединение"-->
+                    <!--android:id="@+id/buttonTestConnection"-->
+                    <!--android:onClick="onClickTestConnection" android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp"/>-->
+
+            <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                    <Button
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Сохранить"
+                            android:id="@+id/buttonSaveSettings"
+                            android:layout_marginTop="20dp"
+                            android:onClick="onClickSaveSettings"
+                            />
+                    <Button
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Отмена"
+
+                            android:onClick="onClickCancelSettings"
+
+                            android:id="@+id/buttonCancelSettings" android:layout_column="1" android:layout_marginTop="20dp"
+                            />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_new"
+          android:icon="@drawable/ic_action_new"
+          android:title="Новый заказ"
+          android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/orders_list_processed"
+          android:title="Отправленные"
+          android:showAsAction="never" />
+    <item android:id="@+id/orders_list_not_processed"
+          android:title="Не отправленные"
+          android:showAsAction="never" />
+</menu>

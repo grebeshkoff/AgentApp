@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/textViewTradeAgentName" android:layout_gravity="center_horizontal"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Заказы"
+                    android:id="@+id/buttonOrdersList" android:paddingTop="10dp"
+                    android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:textSize="20dp"
+                    android:onClick="onClickOrdersList"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Чеки"
+                    android:id="@+id/button1" android:paddingTop="10dp"
+                    android:onClick="onClickChecksList"
+                    android:layout_marginBottom="10dp" android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Прайс лист"
+                      android:layout_gravity="center_horizontal"
+                      android:textSize="20dp"/>
+            <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/spinnerSelectPrice"></Spinner>
+            <!--<Button-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Выбор прайс-листа"-->
+                    <!--android:id="@+id/buttonSelectPriceList"-->
+                    <!--android:onClick="onClickSelectPriceList" android:paddingTop="10dp"-->
+                    <!--android:layout_marginBottom="10dp" android:textSize="20dp"/>-->
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Отчеты"
+                    android:id="@+id/buttonReports"
+                    android:onClick="onClickReports" android:paddingTop="10dp"
+                    android:layout_marginBottom="10dp" android:textSize="20dp"/>
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Настройки"
+                    android:id="@+id/buttonSettings"
+                    android:onClick="onClickSettings" android:paddingTop="10dp"
+                    android:layout_marginBottom="10dp" android:textSize="20dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Загрузка данных"
+                    android:id="@+id/buttonDataLoad"
+                    android:onClick="onClickDataLoad" android:paddingTop="10dp"
+                    android:layout_marginBottom="10dp" android:textSize="20dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Отправка заказов"
+                    android:id="@+id/buttonUploadOrders" android:onClick="onClickUploadOrders"
+                    android:layout_marginBottom="10dp" android:textSize="20dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Обновление ПО"
+                    android:id="@+id/buttonUpdateSoftware"
+                    android:layout_marginBottom="10dp" android:textSize="20dp" android:onClick="onClickUpdateSoftware"
+                    android:enabled="true" android:textColor="#4fd3ff"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/app_version"
+                    android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

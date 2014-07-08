@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:padding="10dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Текущий клиент"
+                    android:id="@+id/textView" android:textSize="25dp"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="..."
+                    android:id="@+id/textViewCheckClient" android:textSize="25dp" android:textColor="#019eff"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="onClickCheckClient" android:clickable="true" android:minHeight="40dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="На дату"
+                    android:id="@+id/textView" android:textSize="25dp"/>
+
+            <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datePickerCheckInDate"
+                    android:layout_gravity="center"
+                    android:calendarViewShown="false"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Номер чека"
+                    android:id="@+id/textView" android:textSize="25dp"/>
+
+            <EditText android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textNoSuggestions"
+                      android:id="@+id/editTextCheckNumber"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма чека"
+                    android:id="@+id/textView" android:textSize="25dp"/>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="1">
+
+
+                <EditText
+                        android:gravity = "right"
+                        android:layout_width="180dp"
+                        android:layout_height="fill_parent"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/editTextCheckMoney"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="грн."
+                        android:id="@+id/textView2"/>
+                <EditText
+                        android:gravity = "right"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:maxLength="2"
+                        android:hint="00"
+                        android:id="@+id/editTextCheckCoins" />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="коп."
+                        android:id="@+id/textView3"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <Button android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Сохранить"
+                        android:id="@+id/buttonCheckSave"
+                        android:layout_marginTop="20dp"
+                        android:enabled="false"
+                        android:onClick="onClickSaveCheck" />
+
+                <Button android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:text="Отмена"
+                        android:id="@+id/buttonCheckCancel"
+                        android:layout_column="1"
+                        android:layout_marginTop="20dp"
+                        android:onClick="onClickCancelCheck"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
