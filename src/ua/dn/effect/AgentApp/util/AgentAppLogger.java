@@ -10,8 +10,10 @@ import android.util.Log;
 public class AgentAppLogger {
     public  static  final String TAG = "AGNT" ;
 
-    public static void Error(Exception e){
-        Log.e(TAG, e.getMessage());
+    public static void Error(Exception e) {
+        if (e.getMessage() != null) {
+            Log.e(TAG, e.getMessage());
+        }
     }
     public static void Text(String s){
         Log.d(TAG, s);

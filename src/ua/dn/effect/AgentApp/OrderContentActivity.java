@@ -62,7 +62,7 @@ public class OrderContentActivity extends Activity {
             public boolean onItemLongClick(AdapterView<?> arg0, View arg1,
                                            final int pos, long id) {
                 AgentAppLogger.Text("long clicked pos: " + pos);
-                new AlertDialog.Builder(ctx)
+                new AlertDialog.Builder(OrderContentActivity.this.getParent())
                         .setTitle("Внимание")
                         .setMessage("Подтвердить удаление позиции?")
                         .setPositiveButton("Да", new DialogInterface.OnClickListener() {
@@ -136,7 +136,7 @@ public class OrderContentActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder(this)
+        new AlertDialog.Builder(OrderContentActivity.this.getParent())
                 .setTitle("Внимание")
                 .setMessage("Сохранить текущий заказ заказа?")
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {

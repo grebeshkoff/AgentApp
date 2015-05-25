@@ -16,7 +16,7 @@ public class Entity {
     public int id;
     public String name;
     public int countInBox;
-    public int minSale;
+    public Double minSale;
     public Double inWarehouse;
     public String action;
     public String repricing;

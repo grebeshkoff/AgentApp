@@ -70,7 +70,7 @@ public class UpdateSoftwareActivity extends Activity {
             //app.Update("http://co-prg-05/AgentApp.apk");
             try {
                 //app.Update("http://co-prg-05/AgentApp.apk");
-                app.Update("https://dl.dropboxusercontent.com/u/43734895/AgentApp.apk");
+                app.Update("https://www.dropbox.com/s/rtpfe4wq7oo70f7/AgentApp.apk?raw=1");
             } catch (Exception e){
                 AgentAppLogger.Error(e);
                 return null;

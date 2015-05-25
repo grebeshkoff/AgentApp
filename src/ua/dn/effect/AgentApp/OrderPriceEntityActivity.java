@@ -196,11 +196,20 @@ public class OrderPriceEntityActivity extends Activity {
         tvEntitySummTotal = (TextView)findViewById(R.id.textViewEntitySummTotal);
 
         tvEntityName.setText(AgentApplication.currentOrder.currentEntity.name);
-        tvEntityInWarehouse.setText("Остаток: " + AgentApplication.currentOrder.currentEntity.inWarehouse.toString());
-        tvEntityMinSale.setText("Мин.  отпуск: " + AgentApplication.currentOrder.currentEntity.minSale);
+
+        String inWaWarehouse = AgentApplication.currentOrder.currentEntity.inWarehouse.toString();
+        if (inWaWarehouse.endsWith(".0")){
+            inWaWarehouse = inWaWarehouse.replace(".0", "");
+        }
+        tvEntityInWarehouse.setText("Остаток: " + inWaWarehouse);
+
+        String minSal = AgentApplication.currentOrder.currentEntity.minSale.toString();
+        if (minSal.endsWith(".0")){
+            minSal = minSal.replace(".0", "");
+        }
+        tvEntityMinSale.setText("Мин.  отпуск: " + minSal);
+
         tvEntityHint.setText(AgentApplication.currentOrder.currentEntity.action);
-
-
 
         FillPriceTypeSpinner1();
         FillPriceTypeSpinner2();

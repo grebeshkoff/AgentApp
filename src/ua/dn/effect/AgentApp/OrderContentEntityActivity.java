@@ -191,8 +191,18 @@ public class OrderContentEntityActivity extends Activity {
         tvEntitySummTotal = (TextView)findViewById(R.id.textViewEntitySummTotal);
 
         tvEntityName.setText(position.entity.name);
-        tvEntityInWarehouse.setText("Остаток: " + position.entity.inWarehouse.toString());
-        tvEntityMinSale.setText("Мин.  отпуск: " + position.entity.minSale);
+
+        String inWaWarehouse = position.entity.inWarehouse.toString();
+        if (inWaWarehouse.endsWith(".0")){
+            inWaWarehouse = inWaWarehouse.replace(".0", "");
+        }
+        tvEntityInWarehouse.setText("Остаток: " + inWaWarehouse);
+
+        String minSal = position.entity.minSale.toString();
+        if (minSal.endsWith(".0")){
+            minSal = minSal.replace(".0", "");
+        }
+        tvEntityMinSale.setText("Мин.  отпуск: " + minSal);
         tvEntityHint.setText(position.entity.action);
 
 

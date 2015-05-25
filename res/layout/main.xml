@@ -84,13 +84,13 @@
                     android:text="Отправка заказов"
                     android:id="@+id/buttonUploadOrders" android:onClick="onClickUploadOrders"
                     android:layout_marginBottom="10dp" android:textSize="20dp"/>
-            <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Обновление ПО"
-                    android:id="@+id/buttonUpdateSoftware"
-                    android:layout_marginBottom="10dp" android:textSize="20dp" android:onClick="onClickUpdateSoftware"
-                    android:enabled="true" android:textColor="#4fd3ff"/>
+            <!--<Button-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Обновление ПО"-->
+                    <!--android:id="@+id/buttonUpdateSoftware"-->
+                    <!--android:layout_marginBottom="10dp" android:textSize="20dp" android:onClick="onClickUpdateSoftware"-->
+                    <!--android:enabled="true" android:textColor="#4fd3ff"/>-->
 
             <TextView
                     android:layout_width="wrap_content"

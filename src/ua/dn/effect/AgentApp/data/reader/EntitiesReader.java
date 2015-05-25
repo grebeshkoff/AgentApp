@@ -60,6 +60,7 @@ public class EntitiesReader {
             br = new BufferedReader(
                     new InputStreamReader(
                             new FileInputStream(priceFile.getAbsolutePath()), "cp1251"));
+
             String str;
             str = br.readLine();
             str = br.readLine();
@@ -69,11 +70,10 @@ public class EntitiesReader {
 
             EntityGroup currentGroup = null;
             Date date = new Date();
-            AgentAppLogger.Text("!!!!!!!!!!!!!!" + date.toString());
             while ((str = br.readLine()) != null) {
 
-
                 if (str.equals("#")){
+
                     int id = Integer.parseInt(br.readLine());
                     String name = br.readLine();
 
@@ -81,42 +81,50 @@ public class EntitiesReader {
                         String secondId = br.readLine();
                         id = Integer.parseInt(secondId.substring(1));
                         EntityGroup group = new EntityGroup(id, name);
-                        //AgentAppLogger.Text(group.name);
                         this.priceList.addGroup(group);
-                        //adapter.add(group);
-                        //adapter.notifyDataSetChanged();
                         currentGroup = group;
 
                     }else {
-                        Entity entity = new Entity(id, name);
-                        entity.countInBox = Integer.parseInt(br.readLine());
-                        entity.minSale = Integer.parseInt(br.readLine());
-                        entity.inWarehouse = Double.parseDouble(br.readLine().replace(",", "."));
+
+                        try {
+                            Entity entity = new Entity(id, name);
+                            entity.countInBox = Integer.parseInt(br.readLine());
+                            entity.minSale = Double.parseDouble(br.readLine().replace(",", "."));
+                            entity.inWarehouse = Double.parseDouble(br.readLine().replace(",", "."));
 
 
-                        if(AgentApplication.ftpConnection.Host.equals("81.21.3.12") || (AgentApplication.ftpConnection.Host.equals("192.168.2.100"))){
-                            br.readLine();
-                            br.readLine();
-                            br.readLine();
-                            br.readLine();
-                            entity.action = br.readLine();
-                            entity.repricing = br.readLine();
-                        }  else {
-                            entity.action = "";
-                            entity.repricing = "";
-                        }
-
-                        for(String type : priceList.priceTypes){
-                            String p = br.readLine();
-
-                            if(p.length()!=0){
-                                entity.addPrice(Double.parseDouble(p.replace(",", ".")));
-                            }else{
-                                entity.addPrice(0.0);
+                            if( AgentApplication.ftpConnection.Host.equals("effect-mar.ddns.net") ||
+                                AgentApplication.ftpConnection.Host.equals("81.21.3.12") ||
+                                AgentApplication.ftpConnection.Host.equals("31.22.217.28") ||
+                                AgentApplication.ftpConnection.Host.equals("192.168.2.100")){
+                                br.readLine();
+                                br.readLine();
+                                br.readLine();
+                                br.readLine();
+                                entity.action = br.readLine();
+                                entity.repricing = br.readLine();
+                            }  else {
+                                entity.action = "";
+                                entity.repricing = "";
                             }
+
+                            for(String type : priceList.priceTypes){
+                                String p = br.readLine();
+
+                                if(p.length()!=0){
+                                    entity.addPrice(Double.parseDouble(p.replace(",", ".")));
+                                }else{
+                                    entity.addPrice(0.0);
+                                }
+                            }
+
+                            currentGroup.addEntity(entity);
+
+                        } catch (Exception ex){
+
+                            AgentAppLogger.Error(ex);
                         }
 
-                        currentGroup.addEntity(entity);
                         //AgentAppLogger.Text(entity.name);
                     }
                 }
