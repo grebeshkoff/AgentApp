@@ -60,165 +60,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe3154d-0bed-4ad5-b328-92ef09844770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\README" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\ant.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\AgentApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\CheckActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\CheckActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\CheckActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ChecksListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ClientDetailActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ClientDetailActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ClientsActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ClientsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\FtpSettingsActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\FtpSettingsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\FtpUpdateService.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ManualUpdateActivity$FtpDownloaderTask.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ManualUpdateActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint1Activity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint1Activity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint1Activity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint2Activity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint2Activity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderAddHint2Activity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivityGroup$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivityGroup$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentActivityGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderContentEntityActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderHeaderActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivityGroup$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivityGroup$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceActivityGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceEntityActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceGroupEntryActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceGroupEntryActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceGroupEntryActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrderPriceGroupEntryActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrdersListActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrdersListActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrdersListActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\OrdersListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\R.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ReportActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ReportActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ReportsListActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\ReportsListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\StartScreenActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\StartScreenActivity$CheckDataAsyncTask.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\StartScreenActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\UpdateSoftwareActivity$SoftUpdateTask.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\UpdateSoftwareActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\UploadOrdersActivity$UploadOrdersTask.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\UploadOrdersActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\config\AgentAppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpDownloader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpFileNameHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpFilesNotCheckedException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpTesterTask.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\exchenge\FtpUploader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Check.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Client.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\DataFile.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\DataFileType.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Entity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\EntityGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Order.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\PaymentType.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Position.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\PriceList.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Report.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\Sale.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\SaleGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\SalesHistory.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\model\TradeAgent.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\reader\ClientsReader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\reader\EntitiesReader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\reader\ReportReader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\reader\SalesReader.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\store\ExternalStorage.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\store\InternalStorage.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\store\Storage.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\data\store\StorageException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\AgentAppLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\AgentNotificationManager.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\ApplicationState.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\ClientProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\DateCoder.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\MPDValidationException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\MpdCash.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\MpdRender.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\StringConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\Transliterator.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\UpdateApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\out\production\AgentApp\ua\dn\effect\AgentApp\util\ZipExtractor.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Code\AgentApp\rendersnake-1.7.3-sources.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentApp.iml" afterPath="$PROJECT_DIR$/AgentApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/check.xml" afterPath="$PROJECT_DIR$/res/layout/check.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_net_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/ftpsettings.xml" afterPath="$PROJECT_DIR$/res/layout/ftpsettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rendersnake_1_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rendersnake_1_7_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Code\AgentApp\commons-io-2.4.jar" afterPath="$PROJECT_DIR$/libs/commons-io-2.4.jar" />
-      <change type="MOVED" beforePath="E:\Code\AgentApp\commons-lang3-3.3.2.jar" afterPath="$PROJECT_DIR$/libs/commons-lang3-3.3.2.jar" />
-      <change type="MOVED" beforePath="E:\Code\AgentApp\commons-net-3.3.jar" afterPath="$PROJECT_DIR$/libs/commons-net-3.3.jar" />
-      <change type="MOVED" beforePath="E:\Code\AgentApp\rendersnake-1.7.3.jar" afterPath="$PROJECT_DIR$/libs/rendersnake-1.7.3.jar" />
     </list>
     <ignored path="AgentApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -473,8 +316,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsManager">
@@ -565,7 +408,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7558348">
+            <state vertical-scroll-proportion="1.3195691">
               <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding />
             </state>
@@ -614,6 +457,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -1434,7 +1282,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1455,7 +1303,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -2169,7 +2017,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433580530336</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="first commit&#10;">
+      <created>1433589779625</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1433589779625</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -2198,11 +2052,9 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14262562" sideWeight="0.63226575" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19529983" sideWeight="0.63226575" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.8706999" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="0" y="349" width="1280" height="286" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50278085" sideWeight="0.78996867" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34927696" sideWeight="0.22228146" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34927696" sideWeight="0.22228146" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2515625" sideWeight="0.40994853" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2269188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
@@ -2214,16 +2066,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19286872" sideWeight="0.7283511" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15565032" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17697228" sideWeight="0.53271025" order="0" side_tool="false" content_ui="combo" x="77" y="119" width="299" height="843" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34927696" sideWeight="0.77771854" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17697228" sideWeight="0.53271025" order="0" side_tool="false" content_ui="combo" x="77" y="119" width="299" height="843" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34927696" sideWeight="0.77771854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.8706999" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35817575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50278085" sideWeight="0.78996867" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2232,13 +2086,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16359447" sideWeight="0.228125" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2281106" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26328126" sideWeight="0.58833617" order="0" side_tool="false" content_ui="combo" x="77" y="119" width="299" height="843" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35253456" sideWeight="0.82758623" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35253456" sideWeight="0.82758623" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19529983" sideWeight="0.63226575" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2252,8 +2106,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38479263" sideWeight="0.6394984" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16359447" sideWeight="0.771875" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19286872" sideWeight="0.7283511" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2682,7 +2536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.473485">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2690,7 +2543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2701,7 +2553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2144289">
           <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2712,7 +2563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3844697">
           <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2737,7 +2587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7558348">
+        <state vertical-scroll-proportion="1.3195691">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding />
         </state>
